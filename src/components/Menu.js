@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
-import juiceImage from '../images/sweetbere.jpg';
+
 
 const categories = [
   { id: 'all', name: 'الكل' },
@@ -66,7 +66,6 @@ function Menu() {
               className={`menu-category ${selectedCategory === category.id ? 'active' : ''}`}
               onClick={() => setSelectedCategory(category.id)}
             >
-              <img src='' />
               {category.name}
             </button>
           ))}

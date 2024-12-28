@@ -34,7 +34,7 @@ function Navbar() {
               <a className="nav-link" href="#contact">تواصل معنا</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/login">تسجيل الدخول</a>
+              <a className="nav-link" href="#">تسجيل الدخول</a>
             </li>
           </ul>
         </div>
