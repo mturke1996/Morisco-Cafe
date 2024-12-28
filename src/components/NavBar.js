@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <img src={logo} alt="موريسكو كافيه" className="navbar-brand-img mr-2" style={{ width: '40px', height: '40px' }} />
-        <a className="navbar-brand" href="#">موريسكو كافيه</a>
+        <a className="navbar-brand" href="/">موريسكو كافيه</a>
         
         <button className="navbar-toggler" type="button" onClick={toggleMenu}>
           <span className="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ function Navbar() {
         <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">الرئيسية</a>
+              <a className="nav-link" href="/">الرئيسية</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">من نحن</a>
@@ -34,7 +34,7 @@ function Navbar() {
               <a className="nav-link" href="#contact">تواصل معنا</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">تسجيل الدخول</a>
+              <a className="nav-link" href="/">تسجيل الدخول</a>
             </li>
           </ul>
         </div>
