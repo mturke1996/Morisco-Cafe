@@ -1,0 +1,89 @@
+/* Navbar styles */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.collapse.show {
+  display: block !important;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-item {
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+/* HeroSection.css */
+
+.hero-container {
+  position: relative;
+  height: 100vh; /* لضمان ملء الصورة للشاشة بالكامل */
+  background-color: rgba(0, 0, 0, 0.5); /* تعتيم الخلفية قليلاً */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7; /* تعتيم الصورة لتظهر النص بشكل أفضل */
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 2; /* لضمان ظهور النص فوق الصورة */
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  bottom: 70px; /* نزول النص إلى الأسفل قليلاً لظهور الصورة بشكل مميز */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.btn-hero {
+  background-color: #ff5733; /* لون الزر */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-hero:hover {
+  background-color: #e64a19; /* عند المرور على الزر */
+}
