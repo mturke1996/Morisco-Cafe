@@ -67,7 +67,7 @@ function About() {
                 <FaInstagram />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.tiktok.com/@mori_sco?_t=8scQmMUVU62&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-flex align-items-center justify-content-center rounded-circle"
@@ -79,7 +79,7 @@ function About() {
                   color: "white",
                 }}
               >
-                <FaTwitter />
+                <FaTikTok />
               </a>
             </div>
           </div>
