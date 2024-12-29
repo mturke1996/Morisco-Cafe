@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 function About() {
   return (
@@ -15,9 +16,9 @@ function About() {
           {/* النص */}
           <div className="col-md-6 text-center text-md-left">
             <p className="lead text-muted mb-4" style={{ fontSize: "1.2rem" }}>
-              موريسكو كافيه هو المكان المثالي لعشاق القهوة والمأكولات الشهية. نحن
-              نقدم تجربة استثنائية تجمع بين أجواء راقية ونكهات فريدة، مما يجعل
-              كل زيارة لحظات لا تُنسى.
+              موريسكو كافيه هو المكان المثالي لعشاق القهوة والمأكولات الشهية.
+              نحن نقدم تجربة استثنائية تجمع بين أجواء راقية ونكهات فريدة، مما
+              يجعل كل زيارة لحظات لا تُنسى.
             </p>
             <p className="lead text-muted mb-4" style={{ fontSize: "1.2rem" }}>
               سواء كنت تبحث عن فطور صباحي لذيذ، كريبات مميزة، أو حلويات شهية،
@@ -79,7 +80,7 @@ function About() {
                   color: "white",
                 }}
               >
-                <FaTikTok />
+                <FaTiktok />
               </a>
             </div>
           </div>
