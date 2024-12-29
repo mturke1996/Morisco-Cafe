@@ -35,7 +35,7 @@ function About() {
               تواصل معنا عبر منصات التواصل الاجتماعي:
             </h3>
             {/* أيقونات التواصل الاجتماعي */}
-            <div className="d-flex align-items-center justify-content-center gap-3 mt-4">
+            <div className="d-flex align-items-center justify-content-center gap-3 mt-4 mb-3">
               <a
                 href="https://www.facebook.com/share/Fkw9yMa5FUf4otaE/?mibextid=wwXIfr"
                 target="_blank"
@@ -75,7 +75,7 @@ function About() {
                   width: "50px",
                   height: "50px",
                   fontSize: "1.5rem",
-                  backgroundColor: "#1DA1F2",
+                  backgroundColor: "black",
                   color: "white",
                 }}
               >
