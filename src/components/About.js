@@ -37,7 +37,7 @@ function About() {
             {/* أيقونات التواصل الاجتماعي */}
             <div className="d-flex align-items-center justify-content-center gap-3 mt-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/Fkw9yMa5FUf4otaE/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-flex align-items-center justify-content-center rounded-circle"
@@ -52,7 +52,7 @@ function About() {
                 <FaFacebookF />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/moriscocafe.ly?igsh=MWZvNWdjZGFibHZrag=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-flex align-items-center justify-content-center rounded-circle"
