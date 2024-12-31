@@ -30,8 +30,6 @@
 .nav-link {
   font-size: 16px;
 }
-/* HeroSection.css */
-
 /* الحاوية الرئيسية */
 .hero-container {
   position: relative;
@@ -41,7 +39,7 @@
   align-items: flex-end; /* محاذاة المحتوى إلى الأسفل */
   text-align: center;
   color: white;
-  background-size: cover;
+  background-size: cover; /* تغطية كاملة للشاشة */
   background-position: center;
   background-image: url('../images/moresko.jpg'); /* الصورة الافتراضية */
 }
@@ -75,23 +73,94 @@
 @media (max-width: 768px) {
   .hero-container {
     background-image: url('../images/PP.png'); /* صورة الهواتف المحمولة */
-    background-size: contain; /* لضمان عرض الصورة بالكامل على الهواتف */
-    background-repeat: no-repeat; /* منع تكرار الصورة */
+    background-size: cover; /* تغطية كاملة للشاشة */
     background-position: center;
   }
-
-  .hero-content h1 {
-    font-size: 2rem; /* تصغير الخط للشاشات الصغيرة */
-  }
-
-  .hero-content p {
-    font-size: 1.2rem;
-  }
 }
-.transition-transform {
-  transition: transform 0.3s ease-in-out;
+/* ملف styles.css */
+/* تصميم قائمة التصنيفات بشكل أفقي */
+.categories-container-horizontal {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  padding: 10px 0;
 }
 
-.hover\:scale-105:hover {
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 10px;
+}
+
+.category-card.active {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.8);
+}
+
+.category-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.category-name {
+  font-size: 1rem;
+  color: #008000;
+}
+
+/* تصميم بطاقات العناصر */
+.item-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  flex-direction: row;
+}
+
+.item-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.item-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.item-details {
+  padding: 10px;
+  flex: 1;
+  text-align: right; /* تغيير النص إلى اليمين */
+}
+
+.item-name {
+  font-size: 1.2rem;
+  color: #008000; /* لون النص الأساسي */
+}
+
+.item-price {
+  font-size: 1.1rem;
+  color: #333; /* لون السعر */
+  font-weight: bold;
+}
+
+.item-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+
