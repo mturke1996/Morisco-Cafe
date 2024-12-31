@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react';
+import './styles.css';
 
 function ItemCard({ item }) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105">
-      <img src={item.image} alt={item.name} className="w-full h-36 object-cover" />
-      <div className="p-4">
-        <h3 className="text-lg font-bold text-gray-800">{item.name}</h3>
-        <p className="text-sm text-gray-600">{item.description}</p>
-        <div className="mt-4 text-yellow-500 font-bold text-lg">SR {item.price}</div>
+    <div className="item-card">
+      <img src={item.image} alt={item.name} className="item-image" />
+      <div className="item-details">
+        <h3 className="item-name">{item.name}</h3>
+        <p className="item-description">{item.description}</p>
+        <div className="item-price"> {item.price} د.ل</div>
       </div>
     </div>
   );
