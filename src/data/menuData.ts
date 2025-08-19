@@ -176,10 +176,10 @@ export const menuData: MenuData = {
   "kunafa": {
     "title": "كنافة",
     "items": [
-      {"name": "عادية", "price": 16},
-      {"name": "عادية و لوز", "price": 17},
-      {"name": "عادية و فستق", "price": 18},
-      {"name": "عادية و لوتس", "price": 17},
+      {"name": "قشطة", "price": 16},
+      {"name": "قشطة ونوتيلا", "price": 17},
+      {"name": "قشطة وفستق", "price": 18},
+      {"name": "قشطة ولوتس", "price": 17},
       {"name": "إضافة آيس كريم", "price": 3}
     ]
   },
